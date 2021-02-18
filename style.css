@@ -7,27 +7,33 @@
     width: 950px;
     background-color: silver;
     margin: 0px auto;
-    padding: 10px;
+    padding: 20px;
+    box-sizing: border-box;
    }
    #header{
     min-height: 150px;
     background-color: green;
-    margin: 5px;
+    margin: 0px 0px 20px 0px;
+    box-sizing: border-box;
    }
    #navigation{
     min-height: 300px;
     width: 200px;
     background-color: blue;
-    margin: 5px;
-    float:left;
+    margin: 0px 5px 0px 0px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
    }
    #main_content{
     min-height: 400px;
     width: 700px;
     background-color: red;
-    padding: 15px;
-    margin: 5px;
+    padding:10px;
+    margin: 0px 0px 0px 0px;
     display: inline-block;
+    align-content: right;
+    box-sizing: border-box;
    }
    .subcontents{
     min-height: 200px;
@@ -40,6 +46,7 @@
     min-height: 120px;
     width: 660px;
     background-color: purple;
-    margin: 20px 5px;
+    margin: 15px 5px;
+    display: inline-block;
    }
    
